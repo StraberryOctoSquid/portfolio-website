@@ -252,6 +252,11 @@ button:focus{
     grid-template-rows: 1fr 1fr;
 }
 
+main.contact {
+    display:grid;
+    justify-items: center;
+    grid-template-rows: max-content;
+}
 .contact-form {
     display:-ms-grid;
     display:grid;
@@ -346,4 +351,9 @@ button:focus{
     opacity: 0;
     -webkit-animation: 4s ease-in 1s infinite alternate opacity-change;
             animation: 4s ease-in 1s infinite alternate opacity-change;
+}
+
+p.contact {
+    line-height: 1.2;
+    margin: 2px;
 }
