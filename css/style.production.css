@@ -256,7 +256,6 @@ main.contact {
     display:grid;
     justify-items: center;
     grid-template-rows: max-content;
-    background-color: #05676e;
 }
 .contact-form {
     display:-ms-grid;
