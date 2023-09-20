@@ -202,14 +202,6 @@ button:focus{
     margin: 0;
 }
 
-.grid__item:last-child {
-    -ms-grid-column: 3;
-    grid-column: 3/3;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-}
-
 .grid {
     display: -ms-grid;
     display: grid;
