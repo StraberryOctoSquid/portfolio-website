@@ -11,6 +11,15 @@ body{font-family: 'Lato', sans-serif;
     line-height: 1.6;
 }
 
+.index {
+    /* display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh; */
+    background-color: #2596be ;
+}
+
 .body-standard {
     display:-ms-grid;
     display:grid;
