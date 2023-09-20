@@ -226,7 +226,6 @@ button:focus{
 
 
 .experience {
-    background:#e0b354;
     width: 100%;
     position: relative;
 
@@ -335,6 +334,7 @@ main.contact {
     opacity: 0;
     -webkit-animation: 4s ease-in 1s infinite alternate opacity-change;
             animation: 4s ease-in 1s infinite alternate opacity-change;
+    margin: 10px;
 }
 
 p.contact {
