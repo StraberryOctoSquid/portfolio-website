@@ -17,7 +17,7 @@ body{font-family: 'Lato', sans-serif;
     -ms-grid-rows: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     height: 100vh; */
-    background-color: #2596be ;
+    background-color: #7cc0d8 ;
 }
 
 .body-standard {
@@ -54,7 +54,7 @@ h3 {font-size: 18px;
 }
 
 a{
-    color:#357b70
+    color:#bea925
 }
 
 a:visited {
@@ -67,12 +67,12 @@ a:visited {
 
   a:hover {
     text-decoration: none;
-    outline: 2px solid aqua;
+    outline: 2px solid #7cc0d8;
 }
 
   a:focus {
     text-decoration: none;
-    outline: 2px solid aqua;
+    outline: 2px solid #7cc0d8;
 }
 
 button{
@@ -86,6 +86,10 @@ button{
     border-bottom: 2px solid rgba(0,0,0,0.2);
     font-size: 16px;
     padding:10px 20px;
+}
+
+#contact-telephone {
+    padding-top: 20px;
 }
 
 button:hover, button:focus {
@@ -224,7 +228,7 @@ button:focus{
 }
 
 .grid__item {
-    background-color: lightgray;
+    background-color: #7cc0d8;
     padding: 10px;
 }
 
@@ -232,8 +236,16 @@ button:focus{
     text-align: center;
 }
 
-
-
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
 .experience {
     width: 100%;
     position: relative;
@@ -296,8 +308,8 @@ main.contact {
     border: none;
     display: inline-block;
     font-family: inherit;
-    background-color:#357b70;
-    color: white;
+    background-color:#7cc0d8;
+    color: #833f27;
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
@@ -343,7 +355,7 @@ main.contact {
     opacity: 0;
     -webkit-animation: 4s ease-in 1s infinite alternate opacity-change;
             animation: 4s ease-in 1s infinite alternate opacity-change;
-    margin: 10px;
+    margin-top: 20px;
 }
 
 p.contact {
