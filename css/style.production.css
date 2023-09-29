@@ -370,3 +370,9 @@ p.contact {
     justify-items: center;
     grid-template-rows: max-content;
 }
+
+.footerLogo {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
